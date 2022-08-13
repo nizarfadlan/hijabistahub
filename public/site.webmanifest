@@ -1,0 +1,17 @@
+{
+   "name": "Hijabistahub",
+   "short_name": "Hbh",
+   "icons": [
+      {
+         "src": "/favicon.ico",
+         "sizes": "192x192",
+         "type": "image/ico"
+      }
+   ],
+   "start_url": "/",
+   "theme_color": "#000",
+   "background_color": "#fff",
+   "display": "standalone",
+   "orientation": "portrait-primary",
+   "prefer_related_applications": true
+}
