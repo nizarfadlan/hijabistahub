@@ -30,7 +30,7 @@ export default function Carousel () {
 
   return (
     <>
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fade(2)} id="carousel" className="group relative mx-3 lg:mx-24 mt-7 md:mt-0 lg:mt-6">
+      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fade(2)} id="carousel" className="group relative mx-3 md:mx-16 lg:mx-24 mt-14 md:mt-4 lg:mt-6">
         <div className="relative h-56 overflow-hidden rounded-md md:h-80">
           {data.map((d) => (
             <div key={d.id} className={`duration-700 ease-in-out absolute inset-0 transition-all transform ${carousel == d.id ? 'opacity-100' : 'opacity-0'}`}>

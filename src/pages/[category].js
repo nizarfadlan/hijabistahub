@@ -13,7 +13,7 @@ export default function Category() {
         <Meta />
       </Head>
       <Headers />
-      <main className="mt-10 md:mt-24 mb-8 pt-8 md:pt-14">
+      <main className="mt-12 md:mt-24 mb-8 pt-8 md:pt-14">
         <Carousel />
         <Product />
       </main>
